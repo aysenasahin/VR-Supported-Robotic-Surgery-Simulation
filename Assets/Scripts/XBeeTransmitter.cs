@@ -5,7 +5,7 @@ using System.IO.Ports; // USB Haberleşme Kütüphanesi
 public class XBeeHaberlesme : MonoBehaviour
 {
     [Header("XBee Ayarları")]
-    public string portAdi = "COM3"; // Gerçekte XBee hangi USB'ye takılıysa o yazılacak
+    public string portAdi = "COM11"; // Gerçekte XBee hangi USB'ye takılıysa o yazılacak
     public int baudRate = 9600;
 
     // Static yapıyoruz ki sahnede 10 tane alet olsa bile hepsi aynı USB portunu kullansın, çakışmasın
