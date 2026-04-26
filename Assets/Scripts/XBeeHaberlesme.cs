@@ -4,7 +4,7 @@ using System.IO.Ports;
 public class XBeeHaberlesme : MonoBehaviour
 {
     [Header("XBee Ayarları")]
-    public string portAdi = "COM11";
+    public string portAdi = "COM3";
     public int baudRate = 9600;
 
     private static SerialPort seriPort;
