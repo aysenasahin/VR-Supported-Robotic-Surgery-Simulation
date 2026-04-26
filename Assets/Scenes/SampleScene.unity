@@ -2547,7 +2547,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0a3d8979ba77ac049a9c4a4d38e9da5c, type: 2}
     - target: {fileID: 8128668236925612103, guid: 72de20460a113be4bb8d8c9e5a08a84a, type: 3}
       propertyPath: m_Name
-      value: GAZLI BEZ
+      value: KANLI GAZLI BEZ
       objectReference: {fileID: 0}
     - target: {fileID: 8128668236925612103, guid: 72de20460a113be4bb8d8c9e5a08a84a, type: 3}
       propertyPath: m_Layer
@@ -6003,7 +6003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8128668236925612103, guid: 72de20460a113be4bb8d8c9e5a08a84a, type: 3}
       propertyPath: m_Name
-      value: KANLI GAZLI BEZ
+      value: GAZLI BEZ
       objectReference: {fileID: 0}
     - target: {fileID: 8128668236925612103, guid: 72de20460a113be4bb8d8c9e5a08a84a, type: 3}
       propertyPath: m_Layer
