@@ -136,10 +136,10 @@ public class KilitliCerrahiAlet : XRGrabInteractable
             if (hedefSilindirGorseli != null)
                 hedefSilindirGorseli.SetActive(false);
 
-            // Oyun yöneticisine bir kez bildir
-            if (!yoneticiyeBildirdi && OyunYoneticisi.instance != null)
+            // Simülasyon yöneticisine bir kez bildir
+            if (!yoneticiyeBildirdi && SimulasyonYoneticisi.instance != null)
             {
-                OyunYoneticisi.instance.AletYerlestirildi();
+                SimulasyonYoneticisi.instance.AletYerlestirildi();
                 yoneticiyeBildirdi = true;
             }
 
@@ -198,8 +198,10 @@ public class KilitliCerrahiAlet : XRGrabInteractable
         eldeTakipModu = true;
     }
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
+        base.OnDisable();
+
         if (eldekiAlet == this && !kilitlendi)
             eldekiAlet = null;
     }
